@@ -6,7 +6,7 @@ pkg load optim % Biar bisa ngebaca csvnya lancar
 file_path = 'input_data.csv';
 data = csvread(file_path);
 
-%Ekstrak data x sama y
+% Ekstrak data x sama y
 x = data(:,1);
 y = data(:,2);
 
